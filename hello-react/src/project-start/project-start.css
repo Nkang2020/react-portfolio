@@ -1,0 +1,26 @@
+.banner-pic {
+    width: 85%;
+    margin-top: 115px;
+}
+.head1 {
+    color: black;
+    text-align: left;
+    font-size:30px;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.head2 {
+    color: black;
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    font-size:25px; 
+    font-weight: bold;
+    font-family: titling-gothic-fb-wide, sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .banner-pic {
+        margin-top:90px;
+    }
+  }

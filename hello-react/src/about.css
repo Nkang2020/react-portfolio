@@ -1,0 +1,54 @@
+
+.App-slang {
+    text-align: center;
+    background-color: black;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+  }
+.about-pic {
+    height: 440px;
+    border: 20px solid white;
+    margin-top: 150px;
+}
+.flexy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-text {
+    width: 60%;
+    text-align: left;
+    font-family: helvetica;
+    font-weight: 100;
+    font-style: normal;
+    margin-top:150px;
+    margin-left:25px;
+}
+
+
+
+@media only screen and (max-width: 830px) {
+    .flexy {
+        display: block;
+    }
+    .about-text {
+        width:80%;
+        margin:0 auto;
+        margin-top:40px;
+    }
+  }
+  @media only screen and (max-width: 745px) {
+    .about-pic {
+        margin-top:120px;
+    }
+  }
+
+  @media only screen and (max-width: 470px) {
+    .about-pic {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 100px;
+        height: auto;
+    }
+  }

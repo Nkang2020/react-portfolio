@@ -1,0 +1,35 @@
+.footer {
+    margin-top:60px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: input-mono-narrow,monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: 	#808080;
+}
+.heart {
+    color:red;
+}
+.email {
+    margin-right: 50px;
+}
+.linked {
+    text-decoration: none;
+    color: #808080;
+}
+@media only screen and (max-width: 600px) {
+    .footer {
+      font-size: 12px;
+    }
+    .email {
+        margin-right: 35px;
+    }
+  }
+@media only screen and (max-width: 450px) {
+    .foot-text {
+        display: block;
+        text-align: left;
+        margin-top: 10px;
+    }
+  }
