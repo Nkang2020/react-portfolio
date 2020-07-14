@@ -365,9 +365,9 @@ class Slanguage extends Component {
                       
                       </div>
 
-                  <div className="flex-slang-2 mtop120 mtop50">
+                  <div className="flex-slang-2 mtop120">
                       <span className="halfwid lh23">As the inbox populates, the data needed to be stored. In order to store the data, I utilized the browser local storage. There the data of the encountered slang phrases is collected. The user can dismiss encountered words in the inbox but the data persists in the local storage so as to not repopulate the same slang. The logic that made this possible was to create a seperate viewing bank so that it would only display slang that the user had not dismissed.<br/><br/>The overall process of developing Slanguage was extremely rewarding. It was great to come full circle and see our project completed and usable! I aim to place it in the google store for free in hopes to help others learn Slang!</span>
-                      <video className="group-pic mtop50" controls>
+                      <video className="group-pic" controls>
                       <source src={Vid2} type="video/mp4" />
                   </video>
                   </div>
