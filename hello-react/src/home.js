@@ -32,7 +32,7 @@ class Home extends Component {
             </div>
             </a>
             <a className="devproj-link" target="_blank" href="https://github.com/Nkang2020/slanguage">
-            <div className="devproj-in-2">
+            <div className="devproj-in-2 devproj-fix2">
             <img className="wd-slang-pic" src={Wdslang} />
             </div>
             </a>
