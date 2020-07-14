@@ -1,0 +1,53 @@
+.logo {
+    height:40px;
+}
+.nav2 {
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: calc(100% - 50px);
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 1150px;
+}
+.nav2 a {
+    /* border-bottom: 1px white solid; */
+    text-decoration: none;
+    color:white;
+    /* float: right; */
+}
+.mid {
+    margin-left: 35px;
+    margin-right: 35px;
+    color: white;
+    text-decoration: none;
+}
+.scroller {
+    cursor: pointer;
+}
+.logolink {
+    border-bottom: none !important;
+    /* float: left !important; */
+}
+
+
+@media only screen and (max-width: 450px) {
+    .logolink {
+      display: none;
+    }
+    .nav3 {
+        display:block;
+    }
+  }
+  @media only screen and (max-width: 404px) {
+    .nav2 {
+      font-size: 10px;
+    }
+  }

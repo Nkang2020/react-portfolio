@@ -1,0 +1,30 @@
+.boxes {
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    line-height: 23px;
+}
+.box-1 {
+    width:20%;
+    text-align: left;
+}
+.box-title {
+    font-weight: bold;
+    font-size:20px;
+}
+.new-line {
+    white-space: pre-line;
+  }
+
+  @media screen and (max-width: 750px) {
+
+    .box-1 {
+        width:40%;
+    }
+    .boxes {
+        flex-wrap: wrap;
+    }
+
+  }
