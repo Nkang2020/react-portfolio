@@ -10,7 +10,7 @@ class NavBar extends Component {
             <div>
                 <a href="/#work">WORK</a>
                 <a className="mid" href="./about">ABOUT</a>
-                <a href="#">RESUME</a>
+                <a target="_blank" href="https://drive.google.com/file/d/1vjN6fGE59BboP9U702UJkBNLa3iD-2to/view?usp=sharing">RESUME</a>
             </div>
         </div>
         );

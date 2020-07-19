@@ -52,7 +52,7 @@ openCity(evt,cityName) {
                   <div className="morewid mauto">
                   <span className="slang-head-2 fix-m">RESEARCH</span>
                   <span className="lh23">In order to submerge ourselves in the machine learning space, we conducted in-depth primary and secondary research before meeting up with our stakeholders at Bloomberg. This included reviewing literature and interviewing Data Scientists, ML Engineers, and Project Managers.<br/><br/>With a shared machine learning language, we then conducted various research methods to try to understand and visualize where the biggest pain points were for our stakeholders and where we could bring the most value.</span>
-                  <a className="aremove" href="https://bloomineers.com/" target="_blank"><button className="button-2">Download Research Report</button></a>
+                  <a className="aremove" href="https://drive.google.com/file/d/1iUPk7yCYiE1tMnal-OC2oJ7mPEVV6gCX/view?usp=sharing" target="_blank"><button className="button-2">Download Research Report</button></a>
                   </div>
                   <span className="lh23 fsize20 sub-header mtop150">RESEARCH GOALS</span>
                   <div className="numero-div-out">

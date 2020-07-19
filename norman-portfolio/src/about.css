@@ -9,17 +9,18 @@
 .about-pic {
     height: 440px;
     border: 20px solid white;
-    margin-top: 150px;
+    margin-top: 170px;
+    box-sizing: border-box;
 }
 .flexy {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 .about-text {
     width: 60%;
     text-align: left;
-    font-family: helvetica;
+    letter-spacing: 0.3px;
+    font-family: 'montserrat';
     font-weight: 100;
     font-style: normal;
     margin-top:150px;
